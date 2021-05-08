@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title 1</title>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h3>margin collapsing</h3>
+<div class="myGreatSeparator">
+    siblings
+</div>
+
+<div id="margin1">Margin 1</div>
+<div id="margin2">Margin 2</div>
+
+<div class="myGreatSeparator">
+    parent and children
+</div>
+
+<div class="marginParent">
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+</div>
+
+<div class="myGreatSeparator">
+    parent with content and children
+</div>
+
+<div class="marginParent">
+    Some content
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+    <div class="marginChild">Hello</div>
+</div>
+
+<div class="myGreatSeparator">
+    no content
+</div>
+
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+
+
+<div class="myGreatSeparator">
+    no content with text node
+</div>
+
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+Hi
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+<div class="noContent"></div>
+
+<div class="myGreatSeparator">
+    no content horizontal
+</div>
+
+<span class="noContent"></span>
+<span class="noContent"></span>
+<span class="noContent"></span>
+<span class="noContent"></span>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+#margin1 {
+ background: red;
+ margin: 20px
+}
+
+#margin2 {
+ background: blue;
+ margin: 20px
+}
+
+.marginParent {
+ background: red;
+ margin: 5px;
+}
+
+.marginChild {
+ background: blue;
+ margin: 10px;
+}
+
+.myGreatSeparator {
+ background: green;
+ height: 20px;
+ width: 100%;
+}
+
+.noContent {
+ background: red;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ margin-left: 10px;
+ margin-right: 20px;
+}
